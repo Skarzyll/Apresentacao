@@ -1,9 +1,11 @@
 @charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Passion+One:wght@400;700;900&display=swap');
 @font-face {
     font-family: 'Android';
     src: url(../fonts/idroid.otf) format('opentype');
     font-weight: normal;
 }
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -15,7 +17,7 @@
     --backgroundcolorsecond: #f1f1f1;
     --colorsecond: #474747;
     --font-android: 'Android', cursive;
-    --font-cordel: ;
+    --font-cordel: 'Passion One', cursive, sans-serif;
 }
 
 body {
@@ -244,7 +246,8 @@ div#divprojeto {
     padding: 10px;
     background-color: rgb(202, 202, 202);
     border-radius: 10px;
-    height: 500px;
+    height: 610px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.349);
 }
 
 div#divprojeto > h1 {
@@ -256,12 +259,31 @@ div#divprojeto > ul {
     line-height: 20px;
 }
 
-div#divprojeto > a#fontandro{
+div#divprojeto > ul > li {
+    margin: 10px;
+    padding: 5px;
+}
+
+div#divprojeto > ul > li > a {
+    text-decoration: none;
+}
+
+div#divprojeto > ul > li > a#fontcordel {
+    font-family: var(--font-cordel);
+    font-weight: 200;
+    font-size: 1.8em;
+    color: black; 
+}
+
+div#divprojeto > ul > li > a#fontandro{
     font-family: var(--font-android);
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #3DDC84;
 }
 
 div#divprojeto > iframe {
     width: 100%;
-    height: 85%;
+    height: 75%;
     border-radius: 10px;
 }
