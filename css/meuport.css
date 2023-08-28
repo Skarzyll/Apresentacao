@@ -275,6 +275,17 @@ div#divprojeto > iframe {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1067px){
+
+    div#divproximomedia {
+        display: block;
+    }
+
+    div#divproximomedia > div.divsocihab {
+        width: 98%;
+    }
+}
+
 @media screen and (max-width: 840px) {
 
     div.divproximo {
@@ -306,12 +317,18 @@ div#divprojeto > iframe {
     }
 }
 
-@media screen and (max-width: 1067px){
-    div#divproximomedia {
-        display: block;
-    }
+@media screen and (max-width: 485px) {
 
-    div#divproximomedia > div.divsocihab {
-        width: 98%;
+    div#divproximomedia > div#divhab {
+        width: 96%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    div#divproximomedia > div#divhab {
+        width: 96%;
+        height: 420px;
     }
 }
