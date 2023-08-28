@@ -268,7 +268,7 @@ div#divprojeto > ul > li > a {
 }
 
 div#divprojeto > ul > li > a#fontcordel {
-    font-family: var(--font-cordel);
+    font-family: 'Dancing Script', cursive;
     font-weight: 200;
     font-size: 1.8em;
     color: black; 
