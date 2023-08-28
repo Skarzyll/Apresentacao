@@ -45,12 +45,10 @@ div.divcab {
 }
 
 div.divcab2 {
-    padding-top: 30px;
-    padding: 10px;
     text-align: justify;
     font-size: 1.2em;
     line-height: 1.8em;
-    margin: 5px;
+    margin: 10px 5px;
 }
 
 img {
@@ -59,13 +57,14 @@ img {
 
 .cabeçalho {
     color: var(--colorsecond);
+    margin-bottom: 5px;
 }
 
 div#botões {
     display: flex;
 }
 
-div#botãodown {
+div.multbotões {
     display: flex;
     width: 10em;
     height: 2.3em;
@@ -74,11 +73,10 @@ div#botãodown {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-right: 8px;
 }
 
 div#botãodown > a {
-    text-align: center;
     text-decoration: none;
     color: white;
     width: 100%;
@@ -93,23 +91,9 @@ div#botãodown:hover {
 
 div#botãodown > a:hover {
     color: black;
-   
-}
-
-div#botãocontacme {
-    display: flex;
-    width: 10em;
-    height: 2.3em;
-    border-radius: 25px;
-    background-color: var(--backgroundcolormain);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
 }
 
 div#botãocontacme > a {
-    text-align: center;
     text-decoration: none;
     color: white;
     width: 100%;
