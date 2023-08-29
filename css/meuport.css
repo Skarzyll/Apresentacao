@@ -23,7 +23,6 @@
 body {
     background-color: var(--backgroundcolormain);
     padding: 25px;
-    justify-content: center;
 }
 
 div#corp {
@@ -74,7 +73,7 @@ div.multbotões {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-right: 8px;
+    margin: 0px 8px;
 }
 
 div#botãodown > a {
@@ -276,10 +275,21 @@ div#divprojeto > iframe {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1067px){
+@media screen and (max-width: 2560px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    body {
+        display: block;
+    }
 
     div#divproximomedia {
-        display: block;
+        display: flex;
     }
 
     div#divproximomedia > div.divsocihab {
@@ -320,21 +330,27 @@ div#divprojeto > iframe {
 
 @media screen and (max-width: 768px) {
 
-    div#divproximomedia > div#divhab {
-        width: 96%;
-        height: 290px;
+    div#divproximomedia {
+        display: block;
     }
-}
-
-@media screen and (max-width: 485px) {
 
     div#divproximomedia > div#divhab {
         width: 96%;
-        height: 300px;
+        height: 210px; 
     }
 }
 
 @media screen and (max-width: 425px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    div#cord {
+        width: 100%;
+        height: 100%;
+    }
 
     div#divproximomedia > div#divhab {
         width: 96%;
@@ -342,16 +358,15 @@ div#divprojeto > iframe {
     }
 }
 
-
 @media screen and (max-width: 375px) {
 
     div#divproximomedia > div#divhab {
         width: 96%;
-        height: 420px;
+        height: 400px;
     }
 
     div#divprojeto {
-        height: 650;
+        height: 800px;
     }
 }
 
@@ -363,6 +378,6 @@ div#divprojeto > iframe {
 
     div#divproximomedia > div#divhab {
         width: 96%;
-        height: 495px;
+        height: 400px;
     }
 }
