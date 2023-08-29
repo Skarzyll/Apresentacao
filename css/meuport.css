@@ -74,6 +74,7 @@ div.multbotões {
     justify-content: center;
     align-items: center;
     margin: 0px 8px;
+    box-sizing: border-box;
 }
 
 div#botãodown > a {
