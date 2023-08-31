@@ -252,6 +252,10 @@ div#divprojeto > ul > li {
     padding: 5px;
 }
 
+div#divprojeto > ul > li::after {
+    content: '\0020\1F517';
+}
+
 div#divprojeto > ul > li > a {
     text-decoration: none;
 }
