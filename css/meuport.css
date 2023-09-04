@@ -23,6 +23,8 @@
 body {
     background-color: var(--backgroundcolormain);
     padding: 25px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div#corp {
@@ -32,16 +34,22 @@ div#corp {
     border-radius: 10px;
     padding: 5px;
     box-shadow: -2px 2px 10px 10px rgba(28, 7, 218, 0.884);
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.divproximo {
     display: flex;
     justify-content: space-around;
     margin: 10px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.divcab {
     margin-right: 10px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.divcab2 {
@@ -49,6 +57,8 @@ div.divcab2 {
     font-size: 1.2em;
     line-height: 1.8em;
     margin: 10px 5px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 img {
@@ -62,6 +72,8 @@ img {
 
 div#botões {
     display: flex;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.multbotões {
@@ -75,6 +87,8 @@ div.multbotões {
     align-items: center;
     margin: 0px 8px;
     box-sizing: border-box;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div#botãodown > a {
@@ -122,6 +136,8 @@ div.divlinks {
     justify-content: center;
     width: 100%;
     height: 40%;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 a.link {
@@ -136,6 +152,7 @@ a.link {
     color: #f1f1f1;
     text-decoration: none;
     transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 a.link:hover {
@@ -183,6 +200,8 @@ div.divsocihab {
     padding: 5px;
     border-radius: 15px;
     background-color: rgb(202, 202, 202);
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div#dividsocihab {
@@ -205,6 +224,8 @@ div#divideos {
     display: flex;
     width: 100%;
     height: 400px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.divideo {
@@ -214,6 +235,8 @@ div.divideo {
     width: 560px;
     height: 350px;
     margin: 15px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div.divideo > h1 {
@@ -236,6 +259,8 @@ div#divprojeto {
     border-radius: 10px;
     height: 610px;
     box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.349);
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div#divprojeto > h1 {
@@ -284,6 +309,8 @@ div#divprojeto > iframe {
     body{
         display: flex;
         justify-content: center;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
 
@@ -291,14 +318,20 @@ div#divprojeto > iframe {
 
     body {
         display: block;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divproximomedia {
         display: flex;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divproximomedia > div.divsocihab {
         width: 98%;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
 
@@ -306,6 +339,8 @@ div#divprojeto > iframe {
 
     div.divproximo {
         display: block;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div.divproximo > div#divimg {
@@ -316,12 +351,16 @@ div#divprojeto > iframe {
         display: block;
         width: 100%;
         height: 830px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divideos > div.divideo {
         position: relative;
         width: 96%;
         height: 400px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div.divideo > iframe {
@@ -337,11 +376,15 @@ div#divprojeto > iframe {
 
     div#divproximomedia {
         display: block;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divproximomedia > div#divhab {
         width: 96%;
-        height: 210px; 
+        height: 210px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
 
@@ -350,6 +393,8 @@ div#divprojeto > iframe {
     body {
         margin: 0;
         padding: 0;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#cord {
@@ -360,6 +405,8 @@ div#divprojeto > iframe {
     div#divproximomedia > div#divhab {
         width: 96%;
         height: 365px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
 
@@ -368,10 +415,14 @@ div#divprojeto > iframe {
     div#divproximomedia > div#divhab {
         width: 96%;
         height: 400px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divprojeto {
         height: 800px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
 
@@ -379,10 +430,14 @@ div#divprojeto > iframe {
 
     div#divproximomedia > div#dividsocihab {
         height: 280px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 
     div#divproximomedia > div#divhab {
         width: 96%;
         height: 400px;
+        transition: all 0.4s;
+        transition-timing-function: ease;
     }
 }
