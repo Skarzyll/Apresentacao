@@ -63,11 +63,20 @@ div.divcab2 {
 
 img {
     width: 18em;
+    transition: all 0.4s;
+    transition-timing-function: ease;
+}
+
+div#divcab2 > h1 {
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 .cabeçalho {
     color: var(--colorsecond);
     margin-bottom: 5px;
+    transition: all 0.4s;
+    transition-timing-function: ease;
 }
 
 div#botões {
