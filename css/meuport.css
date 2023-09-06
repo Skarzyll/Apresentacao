@@ -18,6 +18,7 @@
     --colorsecond: #474747;
     --font-android: 'Android', cursive;
     --font-cordel: 'Passion One', cursive, sans-serif;
+    --font-login: 'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
 }
 
 body {
@@ -29,10 +30,10 @@ body {
 
 div#corp {
     max-width: 1200px;
-    height: 95%;
+    height: 1820px;
     background-color: var(--backgroundcolorsecond);
     border-radius: 10px;
-    padding: 5px;
+    padding: 1px;
     box-shadow: -2px 2px 10px 10px rgba(28, 7, 218, 0.884);
     transition: all 0.4s;
     transition-timing-function: ease;
@@ -41,7 +42,7 @@ div#corp {
 div.divproximo {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 10px 0px;
     transition: all 0.4s;
     transition-timing-function: ease;
 }
@@ -266,7 +267,7 @@ div#divprojeto {
     padding: 10px;
     background-color: rgb(202, 202, 202);
     border-radius: 10px;
-    height: 610px;
+    height: 775px;
     box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.349);
     transition: all 0.4s;
     transition-timing-function: ease;
@@ -308,6 +309,13 @@ div#divprojeto > ul > li > a#fontandro{
     color: #3DDC84;
 }
 
+div#divprojeto > ul > li > a#fontlogin {
+    font-family: var(--font-login);
+    font-weight: 200;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
 div#divprojeto > iframe {
     width: 100%;
     height: 75%;
@@ -323,12 +331,16 @@ div#divprojeto > iframe {
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
     body {
         display: block;
         transition: all 0.4s;
         transition-timing-function: ease;
+    }
+
+    div#corp {
+        height: 1845px;
     }
 
     div#divproximomedia {
@@ -341,6 +353,13 @@ div#divprojeto > iframe {
         width: 98%;
         transition: all 0.4s;
         transition-timing-function: ease;
+    }
+}
+
+@media screen and (max-width: 899px) {
+
+    div#divsocihab {
+        height: 800px;
     }
 }
 
@@ -383,6 +402,23 @@ div#divprojeto > iframe {
 
 @media screen and (max-width: 768px) {
 
+    div#corp {
+        height: 2780px;
+    }
+
+    div#divproximomedia > div#dividsocihab {
+        width: 670px;
+        margin-left: 18px;
+        
+    }
+
+    div#divproximomedia > div#divhab {
+        width: 94%;
+        height: 100px;
+        margin: 0px 0px 0px 18px;
+        
+    }
+
     div#divproximomedia {
         display: block;
         transition: all 0.4s;
@@ -390,8 +426,8 @@ div#divprojeto > iframe {
     }
 
     div#divproximomedia > div#divhab {
-        width: 96%;
-        height: 210px;
+        width: 9;
+        height: 209px;
         transition: all 0.4s;
         transition-timing-function: ease;
     }
@@ -406,14 +442,19 @@ div#divprojeto > iframe {
         transition-timing-function: ease;
     }
 
-    div#cord {
+    div#corp {
         width: 100%;
-        height: 100%;
+        height: 3000px;
+    }
+
+    div#divproximomedia > div#dividsocihab {
+        margin: 2px;
+        padding: 0px;
     }
 
     div#divproximomedia > div#divhab {
-        width: 96%;
-        height: 365px;
+        width: 95%;
+        height: 270px;
         transition: all 0.4s;
         transition-timing-function: ease;
     }
@@ -421,21 +462,57 @@ div#divprojeto > iframe {
 
 @media screen and (max-width: 375px) {
 
-    div#divproximomedia > div#divhab {
+    div#corp {
+        width: 100%;
+        height: 3020px;
+    }
+
+    div#divproximomedia > div#dividsocihab {
+        margin-left: 2px;
         width: 96%;
-        height: 400px;
+    }
+
+    div#divproximomedia > div#divhab {
+        width: 95%;
+        height: 320px;
         transition: all 0.4s;
         transition-timing-function: ease;
     }
 
     div#divprojeto {
         height: 800px;
+        margin: 0px;
         transition: all 0.4s;
         transition-timing-function: ease;
     }
 }
 
 @media screen and (max-width: 320px) {
+
+    div#corp {
+        width: 100%;
+        height: 3250px;
+    }
+
+    div.divsocihab {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div#divhab {
+        width: 100%;
+    }
+
+    div.divproximo {
+        margin: 0px;
+    }
+
+    div#divprojeto {
+        height: 900px;
+        margin: 0px;
+        padding: 0px;
+    }
 
     div#divproximomedia > div#dividsocihab {
         height: 280px;
@@ -448,5 +525,9 @@ div#divprojeto > iframe {
         height: 400px;
         transition: all 0.4s;
         transition-timing-function: ease;
+    }
+
+    div.divideo {
+        margin: 0px;
     }
 }
