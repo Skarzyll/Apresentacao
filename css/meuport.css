@@ -109,8 +109,10 @@ div#botãodown > a {
 }
 
 div#botãodown:hover {
-    border: 2px solid rgb(102, 102, 236);
+    border: 5px solid rgb(102, 102, 236);
     background-color: #3e58e9;
+    width: 10.2em;
+    height: 2.4em;
     box-shadow: 1px 7px 12px #687bec;
 }
 
@@ -126,7 +128,7 @@ div#botãocontacme > a {
 }
 
 div#botãocontacme:hover {
-    border: 2px solid rgb(102, 102, 236);
+    border: 5px solid rgb(102, 102, 236);
     background-color: #3e58e9;
     box-shadow: 1px 7px 12px #687bec;
 }
